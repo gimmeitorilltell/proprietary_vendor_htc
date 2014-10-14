@@ -35,6 +35,12 @@ PRODUCT_COPY_FILES += \
         vendor/htc/t6-common/proprietary/etc/tfa/playbackbeats_l.eq:/system/etc/tfa/playbackbeats_l.eq \
         vendor/htc/t6-common/proprietary/etc/tfa/playbackbeats_l.preset:/system/etc/tfa/playbackbeats_l.preset \
         vendor/htc/t6-common/proprietary/etc/tfa/playbackbeats.preset:/system/etc/tfa/playbackbeats.preset \
+        vendor/htc/t6-common/proprietary/etc/tfa/playbackMFG.config:/system/etc/tfa/playbackMFG.config \
+        vendor/htc/t6-common/proprietary/etc/tfa/playbackMFG.eq:/system/etc/tfa/playbackMFG.eq \
+        vendor/htc/t6-common/proprietary/etc/tfa/playbackMFG.preset:/system/etc/tfa/playbackMFG.preset \
+        vendor/htc/t6-common/proprietary/etc/tfa/playbackMFG_l.config:/system/etc/tfa/playbackMFG_l.config \
+        vendor/htc/t6-common/proprietary/etc/tfa/playbackMFG_l.eq:/system/etc/tfa/playbackMFG_l.eq \
+        vendor/htc/t6-common/proprietary/etc/tfa/playbackMFG_l.preset:/system/etc/tfa/playbackMFG_l.preset \
         vendor/htc/t6-common/proprietary/etc/tfa/playback.config:/system/etc/tfa/playback.config \
         vendor/htc/t6-common/proprietary/etc/tfa/playback.eq:/system/etc/tfa/playback.eq \
         vendor/htc/t6-common/proprietary/etc/tfa/playback_l.config:/system/etc/tfa/playback_l.config \
@@ -53,7 +59,10 @@ PRODUCT_COPY_FILES += \
         vendor/htc/t6-common/proprietary/etc/tfa/ring_l.eq:/system/etc/tfa/ring_l.eq \
         vendor/htc/t6-common/proprietary/etc/tfa/ring_l.preset:/system/etc/tfa/ring_l.preset \
         vendor/htc/t6-common/proprietary/etc/tfa/ring.preset:/system/etc/tfa/ring.preset \
+        vendor/htc/t6-common/proprietary/etc/tfa/tfa9887.config:/system/etc/tfa/tfa9887.config \
         vendor/htc/t6-common/proprietary/etc/tfa/tfa9887_l.patch:/system/etc/tfa/tfa9887_l.patch \
+        vendor/htc/t6-common/proprietary/etc/tfa/tfa9887MFG.patch:/system/etc/tfa/tfa9887MFG.patch \
+        vendor/htc/t6-common/proprietary/etc/tfa/tfa9887MFG_l.patch:/system/etc/tfa/tfa9887MFG_l.patch \
         vendor/htc/t6-common/proprietary/etc/tfa/tfa9887_l.speaker:/system/etc/tfa/tfa9887_l.speaker \
         vendor/htc/t6-common/proprietary/etc/tfa/tfa9887.patch:/system/etc/tfa/tfa9887.patch \
         vendor/htc/t6-common/proprietary/etc/tfa/tfa9887.speaker:/system/etc/tfa/tfa9887.speaker \
@@ -69,8 +78,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/t6-common/proprietary/etc/tfa/voice_l.eq:/system/etc/tfa/voice_l.eq \
         vendor/htc/t6-common/proprietary/etc/tfa/voice_l.preset:/system/etc/tfa/voice_l.preset \
         vendor/htc/t6-common/proprietary/etc/tfa/voice.preset:/system/etc/tfa/voice.preset \
-        vendor/htc/t6-common/proprietary/etc/tfa/voiceWB.eq:/system/etc/tfa/voiceWB.eq \
-        vendor/htc/t6-common/proprietary/etc/tfa/voiceWB_l.eq:/system/etc/tfa/voiceWB_l.eq \
         vendor/htc/t6-common/proprietary/etc/tfa/voip.config:/system/etc/tfa/voip.config \
         vendor/htc/t6-common/proprietary/etc/tfa/voip.eq:/system/etc/tfa/voip.eq \
         vendor/htc/t6-common/proprietary/etc/tfa/voip_l.config:/system/etc/tfa/voip_l.config \
