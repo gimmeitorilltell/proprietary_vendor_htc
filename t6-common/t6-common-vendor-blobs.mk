@@ -221,3 +221,28 @@ PRODUCT_COPY_FILES += \
         vendor/htc/t6-common/proprietary/etc/firmware/tzapps.b02:/system/etc/firmware/tzapps.b02 \
         vendor/htc/t6-common/proprietary/etc/firmware/tzapps.b03:/system/etc/firmware/tzapps.b03 \
         vendor/htc/t6-common/proprietary/etc/firmware/tzapps.mdt:/system/etc/firmware/tzapps.mdt
+
+# RIL/QMI
+PRODUCT_COPY_FILES += \
+        vendor/htc/t6-common/proprietary/bin/efsks:/system/bin/efsks \
+        vendor/htc/t6-common/proprietary/bin/netmgrd:/system/bin/netmgrd \
+        vendor/htc/t6-common/proprietary/bin/qcks:/system/bin/qcks \
+        vendor/htc/t6-common/proprietary/bin/qmuxd:/system/bin/qmuxd \
+        vendor/htc/t6-common/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
+        vendor/htc/t6-common/proprietary/lib/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \
+        vendor/htc/t6-common/proprietary/lib/libdsutils.so:/system/lib/libdsutils.so \
+        vendor/htc/t6-common/proprietary/lib/libidl.so:/system/lib/libidl.so \
+        vendor/htc/t6-common/proprietary/lib/libqcci_legacy.so:/system/lib/libqcci_legacy.so \
+        vendor/htc/t6-common/proprietary/lib/libqdi.so:/system/lib/libqdi.so \
+        vendor/htc/t6-common/proprietary/lib/libqdp.so:/system/lib/libqdp.so \
+        vendor/htc/t6-common/proprietary/lib/libqmi.so:/system/lib/libqmi.so \
+        vendor/htc/t6-common/proprietary/lib/libqmi_cci.so:/system/lib/libqmi_cci.so \
+        vendor/htc/t6-common/proprietary/lib/libqmi_client_qmux.so:/system/lib/libqmi_client_qmux.so \
+        vendor/htc/t6-common/proprietary/lib/libqmi_common_so.so:/system/lib/libqmi_common_so.so \
+        vendor/htc/t6-common/proprietary/lib/libqmi_csi.so:/system/lib/libqmi_csi.so \
+        vendor/htc/t6-common/proprietary/lib/libqmi_encdec.so:/system/lib/libqmi_encdec.so \
+        vendor/htc/t6-common/proprietary/lib/libqmiservices.so:/system/lib/libqmiservices.so \
+        vendor/htc/t6-common/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
+        vendor/htc/t6-common/proprietary/lib/libril-qc-qmi-1.so:/system/lib/libril-qc-qmi-1.so \
+        vendor/htc/t6-common/proprietary/lib/libril-qcril-hook-oem.so:/system/lib/libril-qcril-hook-oem.so \
+        vendor/htc/t6-common/proprietary/lib/libtime_genoff.so:/system/lib/libtime_genoff.so
