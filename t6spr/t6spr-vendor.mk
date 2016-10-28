@@ -35,4 +35,5 @@ PRODUCT_COPY_FILES += \
     vendor/htc/t6spr/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
     vendor/htc/t6spr/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/htc/t6spr/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
-    vendor/htc/t6spr/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so
+    vendor/htc/t6spr/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
+    vendor/htc/t6spr/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so
