@@ -110,6 +110,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/t6-common/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
     vendor/htc/t6-common/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
     vendor/htc/t6-common/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
+    vendor/htc/t6-common/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/htc/t6-common/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
     vendor/htc/t6-common/proprietary/lib/libHTC_DIS.so:system/lib/libHTC_DIS.so \
     vendor/htc/t6-common/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
@@ -218,4 +219,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/t6-common/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
     vendor/htc/t6-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/htc/t6-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/htc/t6-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+    vendor/htc/t6-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/htc/t6-common/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so
+
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.fm@1.0
