@@ -193,6 +193,11 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m7-common/proprietary/vendor/lib/libmpl.so:system/vendor/lib/libmpl.so \
     vendor/htc/m7-common/proprietary/vendor/lib/libmpl_jni.so:system/vendor/lib/libmpl_jni.so \
     vendor/htc/m7-common/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
+    vendor/htc/m8-common/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
+    vendor/htc/m8-common/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
+    vendor/htc/m8-common/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
+    vendor/htc/m8-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
+    vendor/htc/m8-common/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/htc/m7-common/proprietary/vendor/lib/libposteffect.so:system/vendor/lib/libposteffect.so \
     vendor/htc/m7-common/proprietary/vendor/lib/libwriteback.so:system/vendor/lib/libwriteback.so \
     vendor/htc/m7-common/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
