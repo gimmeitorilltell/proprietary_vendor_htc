@@ -193,6 +193,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m7-common/proprietary/vendor/lib/libmpl.so:system/vendor/lib/libmpl.so \
     vendor/htc/m7-common/proprietary/vendor/lib/libmpl_jni.so:system/vendor/lib/libmpl_jni.so \
     vendor/htc/m7-common/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
+    vendor/htc/m7-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/htc/m8-common/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/htc/m8-common/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
     vendor/htc/m8-common/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
@@ -225,5 +226,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m7-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/htc/m7-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/htc/m7-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+    vendor/htc/m7-common/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/htc/m7-common/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
     vendor/htc/m7-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
